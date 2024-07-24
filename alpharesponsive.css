@@ -1,0 +1,78 @@
+@media screen and (max-width:800px) {
+    .nav {
+        position: absolute;
+        display: none;
+        right: 50px;
+        top: 50px;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .header {
+        padding: 10px 5 0px;
+        position: relative;
+    }
+    .nav ul {
+        background: royalblue;
+    }
+    .nav ul li {
+        display: block;
+        padding: 15px 10px;
+    }
+
+    .nav.active{
+        display: block;
+    }
+
+    .show {
+        font-size: 90px;
+    }
+
+    .show2 {
+        font-size: 40px;
+    }
+
+    .allaboutus {
+        flex-direction: column;
+    }
+
+
+    .company {
+        font-size: 25px;
+    }
+    #footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #footer {
+        width: 100%;
+    }
+}
